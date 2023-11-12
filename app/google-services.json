@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "326066329846",
+    "project_id": "gamechangerids",
+    "storage_bucket": "gamechangerids.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326066329846:android:3001047ce0b86b7de834d7",
+        "android_client_info": {
+          "package_name": "com.game.gamechanger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUUm8j40j_nLPOe3RaU48G1U-P6ngNb74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
