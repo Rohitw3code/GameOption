@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">gamechanger</string>
+    <string name="app_name">GameOptions</string>
     <string name="title_activity_first">FirstActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
