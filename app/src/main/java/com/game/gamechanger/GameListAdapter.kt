@@ -11,8 +11,8 @@ class GameListAdapter(private val games: List<GameListModel>) :
     RecyclerView.Adapter<GameListAdapter.GameViewHolder>() {
 
     class GameViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val titleTextView: TextView = itemView.findViewById(R.id.textViewTitle)
-        val genreTextView: TextView = itemView.findViewById(R.id.textViewGenre)
+//        val titleTextView: TextView = itemView.findViewById(R.id.textViewTitle)
+//        val genreTextView: TextView = itemView.findViewById(R.id.textViewGenre)
         // Add other views as needed
     }
 
@@ -26,9 +26,10 @@ class GameListAdapter(private val games: List<GameListModel>) :
         val currentGame = games[position]
 
         // Bind data to views
-        holder.titleTextView.text = currentGame.title
-        holder.genreTextView.text = currentGame.genre
+//        holder.titleTextView.text = currentGame.title
+//        holder.genreTextView.text = currentGame.name
         // Bind other data as needed
+
     }
 
     override fun getItemCount(): Int {

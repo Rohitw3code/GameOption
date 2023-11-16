@@ -1,8 +1,10 @@
 package com.game.gamechanger.Model
 
 data class GameListModel(
-    val id: Int,
+    val id: String,
+    val imageUrl:String,
     val title: String,
-    val genre: String,
-    // Add other properties as needed
+    val description: String,
+    val price:String,
+    val name: String,
 )

@@ -1,15 +1,13 @@
-package com.game.gamechanger.ui.dashboard
+package com.game.gamechanger.ui.buysell
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.game.gamechanger.databinding.FragmentDashboardBinding
 
-class DashboardFragment : Fragment() {
+class BuySellFragment : Fragment() {
 
     private var _binding: FragmentDashboardBinding? = null
 
@@ -27,7 +25,11 @@ class DashboardFragment : Fragment() {
 
 
 
+
+
+
         return root
+
     }
 
     override fun onDestroyView() {

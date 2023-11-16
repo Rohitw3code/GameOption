@@ -17,10 +17,10 @@ class HomeFragment : Fragment() {
 
     // Dummy data
     private val dummyGames = listOf(
-        GameListModel(1, "Game 1", "Action"),
-        GameListModel(2, "Game 2", "Adventure"),
-        GameListModel(3, "Game 3", "Puzzle"),
-        // Add more dummy data as needed
+        GameListModel("1", "", "Action","","","Game 1"),
+        GameListModel("2", "", "Game","","","Game 2"),
+        GameListModel("3", "", "Action","","","Game 3"),
+        GameListModel("4", "", "Action","","","Game 4"),
     )
 
     private lateinit var gameListAdapter: GameListAdapter

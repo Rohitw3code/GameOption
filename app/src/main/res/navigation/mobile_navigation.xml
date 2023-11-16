@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.game.gamechanger.ui.dashboard.DashboardFragment"
+        android:name="com.game.gamechanger.ui.buysell.BuySellFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
