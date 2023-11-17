@@ -11,9 +11,10 @@ class GameListAdapter(private val games: List<GameListModel>) :
     RecyclerView.Adapter<GameListAdapter.GameViewHolder>() {
 
     class GameViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-//        val titleTextView: TextView = itemView.findViewById(R.id.textViewTitle)
-//        val genreTextView: TextView = itemView.findViewById(R.id.textViewGenre)
-        // Add other views as needed
+        val title: TextView = itemView.findViewById(R.id.title_game_list)
+        val amount: TextView = itemView.findViewById(R.id.amount_game_list)
+        val desc1: TextView = itemView.findViewById(R.id.detail_1_game_list)
+        val desc2: TextView = itemView.findViewById(R.id.detail_2_game_list)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GameViewHolder {
@@ -25,10 +26,10 @@ class GameListAdapter(private val games: List<GameListModel>) :
     override fun onBindViewHolder(holder: GameViewHolder, position: Int) {
         val currentGame = games[position]
 
-        // Bind data to views
-//        holder.titleTextView.text = currentGame.title
-//        holder.genreTextView.text = currentGame.name
-        // Bind other data as needed
+        holder.title.text = currentGame.name
+        holder.amount.text = currentGame.price
+        holder.desc1.text = currentGame.description
+        holder.desc2.text = currentGame.description
 
     }
 
