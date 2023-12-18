@@ -1,4 +1,4 @@
-package com.game.gamechanger
+package com.game.gamemart
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

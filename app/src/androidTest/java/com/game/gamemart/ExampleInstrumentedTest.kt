@@ -1,4 +1,4 @@
-package com.game.gamechanger
+package com.game.gamemart
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.game.gamechanger", appContext.packageName)
+        assertEquals("com.game.gamemart", appContext.packageName)
     }
 }

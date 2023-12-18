@@ -1,4 +1,4 @@
-package com.game.gamechanger
+package com.game.gamemart
 
 import org.junit.Test
 
