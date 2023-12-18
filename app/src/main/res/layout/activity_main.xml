@@ -22,17 +22,17 @@
                 android:textStyle="bold"
                 android:padding="10sp"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="22sp"
                 android:text="GameMart" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:tint="@color/white"
+                android:id="@+id/home_profile"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
                 android:layout_centerVertical="true"
                 android:layout_marginHorizontal="20sp"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/baseline_person_24"/>
+                android:src="@drawable/gamer"/>
 
         </RelativeLayout>
 

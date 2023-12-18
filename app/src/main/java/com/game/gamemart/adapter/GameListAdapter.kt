@@ -1,10 +1,12 @@
 package com.game.gamemart.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.game.gamemart.AccountDescActivity
 import com.game.gamemart.R
 import com.game.gamemart.model.GameListModel
 
@@ -26,11 +28,17 @@ class GameListAdapter(private val games: List<GameListModel>) :
 
     override fun onBindViewHolder(holder: GameViewHolder, position: Int) {
         val currentGame = games[position]
+        val context = holder.itemView.context
 
         holder.title.text = currentGame.name
         holder.amount.text = currentGame.price
         holder.desc1.text = currentGame.description
         holder.desc2.text = currentGame.description
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context,AccountDescActivity::class.java)
+            context.startActivity(intent)
+        }
 
     }
 
