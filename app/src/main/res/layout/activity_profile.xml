@@ -20,24 +20,24 @@
             android:padding="15sp"
             android:orientation="vertical">
 
-<!--            <de.hdodenhof.circleimageview.CircleImageView-->
-<!--                android:layout_width="80sp"-->
-<!--                android:layout_height="80sp"-->
-<!--                android:src="@drawable/logo" />-->
+            <ImageView
+                android:layout_width="90sp"
+                android:layout_height="90sp"
+                android:src="@drawable/logo"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                android:text="Your Name"/>
+                android:text="Parveen Kumar"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:textColor="@color/white"
-                android:text="Email"/>
+                android:text="+91 1234567890"/>
 
         </LinearLayout>
 

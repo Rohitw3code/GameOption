@@ -19,10 +19,10 @@ class HomeFragment : Fragment() {
 
     // Dummy data
     private val dummyGames = listOf(
-        GameListModel("1", "", "Action","","7000","Game 1"),
-        GameListModel("2", "", "Game","","6541","Game 2"),
-        GameListModel("3", "", "Action","","32145","Game 3"),
-        GameListModel("4", "", "Action","","589","Game 4"),
+        GameListModel("1", "", "Action","gaming experience with this top-tier","7000","BGMI Account"),
+        GameListModel("2", "", "Game","Dive into the world of luxury with a fully upgraded","6541","BGMI Account for"),
+        GameListModel("3", "", "Action","Revel in the glory of numerous unlocked achievements","32145","FF Account"),
+        GameListModel("4", "", "Action","This account boasts an impressive level","589","VOLNT Account"),
     )
 
     private lateinit var gameListAdapter: GameListAdapter

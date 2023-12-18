@@ -31,9 +31,9 @@ class GameListAdapter(private val games: List<GameListModel>) :
         val context = holder.itemView.context
 
         holder.title.text = currentGame.name
-        holder.amount.text = currentGame.price
+        holder.amount.text = "₹ "+currentGame.price
         holder.desc1.text = currentGame.description
-        holder.desc2.text = currentGame.description
+//        holder.desc2.text = currentGame.description
 
         holder.itemView.setOnClickListener {
             val intent = Intent(context,AccountDescActivity::class.java)
